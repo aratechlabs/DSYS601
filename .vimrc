@@ -1,0 +1,2 @@
+colorscheme blue
+syntax on
