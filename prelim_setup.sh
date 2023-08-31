@@ -9,6 +9,8 @@ echo "alias ug='git add . && git commit -a'" > ~/.bash_aliases
 echo "alias ai='apt install'" >> ~/.bash_aliases
 echo "alias au='apt update && apt upgrade -y'" >> ~/.bash_aliases
 echo "alias ibl='sed -E \"/(^\s*#)|(^\s*$)/d\" ' " >> ~/.bash_aliases
+echo "set const" > ~/.nanorc
+echo "include ~/.nano/python.nanorc" > ~/.nanorc
 # Re-Read the profile settings to pick up the new changes
 . ~/.bashrc
 # Exit the shell as you'll need to start a new shell to pick up the settings
